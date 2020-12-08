@@ -1,2 +1,4 @@
-# PB170_template
-Template for final projects in subject PB170 at FI MU.
+View this project on [CADLAB.io](https://cadlab.io/project//TODO). 
+
+# Template for PB170 projects at FI MU Brno
+Add your user guide here.
