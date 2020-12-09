@@ -139,33 +139,6 @@ F 3 "" H 1300 2000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2200 1950 2300 1950
-Wire Wire Line
-	2200 2150 2250 2150
-$Comp
-L power:PWR_FLAG #FLG0101
-U 1 1 5FD0908A
-P 2250 2150
-F 0 "#FLG0101" H 2250 2225 50  0001 C CNN
-F 1 "PWR_FLAG" H 2250 2323 50  0000 C CNN
-F 2 "" H 2250 2150 50  0001 C CNN
-F 3 "~" H 2250 2150 50  0001 C CNN
-	1    2250 2150
-	-1   0    0    1   
-$EndComp
-Connection ~ 2250 2150
-Wire Wire Line
-	2250 2150 2300 2150
-$Comp
-L power:PWR_FLAG #FLG0102
-U 1 1 5FD097DA
-P 1300 2100
-F 0 "#FLG0102" H 1300 2175 50  0001 C CNN
-F 1 "PWR_FLAG" H 1300 2273 50  0000 C CNN
-F 2 "" H 1300 2100 50  0001 C CNN
-F 3 "~" H 1300 2100 50  0001 C CNN
-	1    1300 2100
-	-1   0    0    1   
-$EndComp
 $Comp
 L power:+5V #PWR0104
 U 1 1 5FD09E4B
@@ -714,9 +687,6 @@ Wire Wire Line
 	1450 2050 1300 2050
 Wire Wire Line
 	1300 2050 1300 2000
-Wire Wire Line
-	1300 2100 1300 2050
-Connection ~ 1300 2050
 Wire Notes Line
 	950  4450 3250 4450
 Wire Notes Line
@@ -919,4 +889,50 @@ Wire Wire Line
 Connection ~ 2300 6450
 Wire Wire Line
 	2300 6450 2600 6450
+Wire Wire Line
+	2200 2150 2300 2150
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5FD54CAB
+P 4900 7050
+F 0 "H1" H 5000 7099 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5000 7008 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 4900 7050 50  0001 C CNN
+F 3 "~" H 4900 7050 50  0001 C CNN
+	1    4900 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5FD576B7
+P 5150 7050
+F 0 "H2" H 5250 7099 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5250 7008 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 5150 7050 50  0001 C CNN
+F 3 "~" H 5150 7050 50  0001 C CNN
+	1    5150 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5FD5794D
+P 5400 7050
+F 0 "H3" H 5500 7099 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5500 7008 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 5400 7050 50  0001 C CNN
+F 3 "~" H 5400 7050 50  0001 C CNN
+	1    5400 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5FD57BD8
+P 5650 7050
+F 0 "H4" H 5750 7099 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5750 7008 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 5650 7050 50  0001 C CNN
+F 3 "~" H 5650 7050 50  0001 C CNN
+	1    5650 7050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
