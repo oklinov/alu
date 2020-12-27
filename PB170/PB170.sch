@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -853,4 +853,10 @@ NoConn ~ 5150 6250
 NoConn ~ 5150 6600
 NoConn ~ 5150 6950
 NoConn ~ 5150 7300
+$Sheet
+S 6950 5250 1550 850 
+U 5FEB4D4D
+F0 "Sheet5FEB4D4C" 50
+F1 "newParts.sch" 50
+$EndSheet
 $EndSCHEMATC

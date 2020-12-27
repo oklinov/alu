@@ -1,0 +1,102 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR?
+U 1 1 5FE92EF7
+P 4050 1950
+AR Path="/5FE92EF7" Ref="#PWR?"  Part="1" 
+AR Path="/5FEB4D4D/5FE92EF7" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0125" H 4050 1700 50  0001 C CNN
+F 1 "GND" V 4055 1822 50  0000 R CNN
+F 2 "" H 4050 1950 50  0001 C CNN
+F 3 "" H 4050 1950 50  0001 C CNN
+	1    4050 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5FE92EFD
+P 4050 950
+AR Path="/5FE92EFD" Ref="#PWR?"  Part="1" 
+AR Path="/5FEB4D4D/5FE92EFD" Ref="#PWR0126"  Part="1" 
+F 0 "#PWR0126" H 4050 800 50  0001 C CNN
+F 1 "+5V" V 4065 1078 50  0000 L CNN
+F 2 "" H 4050 950 50  0001 C CNN
+F 3 "" H 4050 950 50  0001 C CNN
+	1    4050 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L PB170:74HC08 U2
+U 1 1 5FEA6010
+P 1000 1450
+F 0 "U2" H 1025 1717 50  0000 C CNN
+F 1 "74HC08" H 1025 1626 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 1000 1450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 1000 1450 50  0001 C CNN
+F 4 "C5593" H 1000 1450 50  0001 C CNN "LCSC"
+	1    1000 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L PB170:74HC08 U2
+U 2 1 5FEA6FF4
+P 1800 1450
+F 0 "U2" H 1825 1717 50  0000 C CNN
+F 1 "74HC08" H 1825 1626 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 1800 1450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 1800 1450 50  0001 C CNN
+F 4 "C5593" H 1800 1450 50  0001 C CNN "LCSC"
+	2    1800 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L PB170:74HC08 U2
+U 3 1 5FEA79A4
+P 2550 1450
+F 0 "U2" H 2575 1717 50  0000 C CNN
+F 1 "74HC08" H 2575 1626 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 2550 1450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 2550 1450 50  0001 C CNN
+F 4 "C5593" H 2550 1450 50  0001 C CNN "LCSC"
+	3    2550 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L PB170:74HC08 U2
+U 4 1 5FEA7D64
+P 3300 1450
+F 0 "U2" H 3325 1717 50  0000 C CNN
+F 1 "74HC08" H 3325 1626 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 3300 1450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 3300 1450 50  0001 C CNN
+F 4 "C5593" H 3300 1450 50  0001 C CNN "LCSC"
+	4    3300 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L PB170:74HC08 U2
+U 5 1 5FE8D2BE
+P 4050 1450
+F 0 "U2" H 4280 1496 50  0000 L CNN
+F 1 "74HC08" H 4280 1405 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 4050 1450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 4050 1450 50  0001 C CNN
+F 4 "C5593" H 4050 1450 50  0001 C CNN "LCSC"
+	5    4050 1450
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
