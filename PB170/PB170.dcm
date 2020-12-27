@@ -4,4 +4,12 @@ $CMP 74HC08
 F https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf
 $ENDCMP
 #
+$CMP 74HC4511D
+F https://datasheet.lcsc.com/szlcsc/Nexperia-74HC4511D-653_C87661.pdf
+$ENDCMP
+#
+$CMP HEF4518BT
+F https://datasheet.lcsc.com/szlcsc/Nexperia-HEF4518BT-653_C7870.pdf
+$ENDCMP
+#
 #End Doc Library
