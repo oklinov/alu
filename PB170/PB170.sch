@@ -856,7 +856,7 @@ NoConn ~ 5150 7300
 $Sheet
 S 6950 5250 1550 850 
 U 5FEB4D4D
-F0 "Sheet5FEB4D4C" 50
+F0 "New parts" 50
 F1 "newParts.sch" 50
 $EndSheet
 $EndSCHEMATC
