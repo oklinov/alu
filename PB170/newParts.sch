@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -283,6 +283,92 @@ F 1 "+5V" V 3815 2578 50  0000 L CNN
 F 2 "" H 3800 2450 50  0001 C CNN
 F 3 "" H 3800 2450 50  0001 C CNN
 	1    3800 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC86 U?
+U 1 1 600A8380
+P 1400 4200
+F 0 "U?" H 1400 4525 50  0000 C CNN
+F 1 "74HC86" H 1400 4434 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 1400 4200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74AHC86PWR_C117522.pdf" H 1400 4200 50  0001 C CNN
+F 4 "C117522" H 1400 4200 50  0001 C CNN "LCSC"
+	1    1400 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC86 U?
+U 2 1 600AA188
+P 2200 4200
+F 0 "U?" H 2200 4525 50  0000 C CNN
+F 1 "74HC86" H 2200 4434 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 2200 4200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74AHC86PWR_C117522.pdf" H 2200 4200 50  0001 C CNN
+F 4 "C117522" H 2200 4200 50  0001 C CNN "LCSC"
+	2    2200 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC86 U?
+U 3 1 600AF551
+P 3000 4200
+F 0 "U?" H 3000 4525 50  0000 C CNN
+F 1 "74HC86" H 3000 4434 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 3000 4200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74AHC86PWR_C117522.pdf" H 3000 4200 50  0001 C CNN
+F 4 "C117522" H 3000 4200 50  0001 C CNN "LCSC"
+	3    3000 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC86 U?
+U 4 1 600B0ABE
+P 3800 4200
+F 0 "U?" H 3800 4525 50  0000 C CNN
+F 1 "74HC86" H 3800 4434 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 3800 4200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74AHC86PWR_C117522.pdf" H 3800 4200 50  0001 C CNN
+F 4 "C117522" H 3800 4200 50  0001 C CNN "LCSC"
+	4    3800 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC86 U?
+U 5 1 600B2251
+P 4550 4200
+F 0 "U?" H 4780 4246 50  0000 L CNN
+F 1 "74HC86" H 4780 4155 50  0000 L CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 4550 4200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74AHC86PWR_C117522.pdf" H 4550 4200 50  0001 C CNN
+F 4 "C117522" H 4550 4200 50  0001 C CNN "LCSC"
+	5    4550 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 600B6A3F
+P 4550 3700
+AR Path="/600B6A3F" Ref="#PWR?"  Part="1" 
+AR Path="/5FEB4D4D/600B6A3F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4550 3550 50  0001 C CNN
+F 1 "+5V" V 4565 3828 50  0000 L CNN
+F 2 "" H 4550 3700 50  0001 C CNN
+F 3 "" H 4550 3700 50  0001 C CNN
+	1    4550 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 600B7A17
+P 4550 4700
+AR Path="/600B7A17" Ref="#PWR?"  Part="1" 
+AR Path="/5FEB4D4D/600B7A17" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4550 4450 50  0001 C CNN
+F 1 "GND" V 4555 4572 50  0000 R CNN
+F 2 "" H 4550 4700 50  0001 C CNN
+F 3 "" H 4550 4700 50  0001 C CNN
+	1    4550 4700
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

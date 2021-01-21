@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -858,5 +858,11 @@ S 6950 5250 1550 850
 U 5FEB4D4D
 F0 "New parts" 50
 F1 "newParts.sch" 50
+$EndSheet
+$Sheet
+S 8750 1300 900  1450
+U 600A4AF3
+F0 "SheetALU" 50
+F1 "alu.sch" 50
 $EndSheet
 $EndSCHEMATC
