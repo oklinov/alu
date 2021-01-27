@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 9
+Sheet 7 10
 Title ""
 Date ""
 Rev ""
@@ -13,30 +13,382 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 3650 2700 0    50   Input ~ 0
+Text HLabel 1150 1250 0    50   Input ~ 0
 IN_A0
-Text HLabel 3650 2800 0    50   Input ~ 0
+Text HLabel 1150 1350 0    50   Input ~ 0
 IN_A1
-Text HLabel 3650 2900 0    50   Input ~ 0
+Text HLabel 1150 1450 0    50   Input ~ 0
 IN_A2
-Text HLabel 3650 3000 0    50   Input ~ 0
+Text HLabel 1150 1550 0    50   Input ~ 0
 IN_A3
-Text HLabel 3650 3250 0    50   Input ~ 0
+Text HLabel 1150 1700 0    50   Input ~ 0
 IN_B0
-Text HLabel 3650 3350 0    50   Input ~ 0
+Text HLabel 1150 1800 0    50   Input ~ 0
 IN_B1
-Text HLabel 3650 3450 0    50   Input ~ 0
+Text HLabel 1150 1900 0    50   Input ~ 0
 IN_B2
-Text HLabel 3650 3550 0    50   Input ~ 0
+Text HLabel 1150 2000 0    50   Input ~ 0
 IN_B3
-Text HLabel 3650 3800 0    50   Input ~ 0
+Text HLabel 3200 3050 0    50   Input ~ 0
 IN_OR
-Text HLabel 5100 2700 2    50   Output ~ 0
+Text HLabel 4550 2800 2    50   Output ~ 0
 OUT_Y0
-Text HLabel 5100 2800 2    50   Output ~ 0
+Text HLabel 4550 2900 2    50   Output ~ 0
 OUT_Y1
-Text HLabel 5100 2900 2    50   Output ~ 0
+Text HLabel 4550 3000 2    50   Output ~ 0
 OUT_Y2
-Text HLabel 5100 3000 2    50   Output ~ 0
+Text HLabel 4550 3100 2    50   Output ~ 0
 OUT_Y3
+Text HLabel 3200 3150 0    50   Input ~ 0
+IN_NOT_OR
+$Comp
+L PB170:74HC08 U?
+U 1 1 6012A899
+P 2300 1650
+F 0 "U?" H 2325 1917 50  0000 C CNN
+F 1 "74HC08" H 2325 1826 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 2300 1650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 2300 1650 50  0001 C CNN
+F 4 "C5593" H 2300 1650 50  0001 C CNN "LCSC"
+	1    2300 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L PB170:74HC08 U?
+U 2 1 6012BE48
+P 2300 2050
+F 0 "U?" H 2325 2317 50  0000 C CNN
+F 1 "74HC08" H 2325 2226 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 2300 2050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 2300 2050 50  0001 C CNN
+F 4 "C5593" H 2300 2050 50  0001 C CNN "LCSC"
+	2    2300 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PB170:74HC08 U?
+U 3 1 6012CB7D
+P 2300 2450
+F 0 "U?" H 2325 2717 50  0000 C CNN
+F 1 "74HC08" H 2325 2626 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 2300 2450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 2300 2450 50  0001 C CNN
+F 4 "C5593" H 2300 2450 50  0001 C CNN "LCSC"
+	3    2300 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L PB170:74HC08 U?
+U 4 1 6012D786
+P 2300 2850
+F 0 "U?" H 2325 3117 50  0000 C CNN
+F 1 "74HC08" H 2325 3026 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 2300 2850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 2300 2850 50  0001 C CNN
+F 4 "C5593" H 2300 2850 50  0001 C CNN "LCSC"
+	4    2300 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PB170:74HC08 U?
+U 5 1 6012E727
+P 3900 1650
+F 0 "U?" H 4130 1696 50  0000 L CNN
+F 1 "74HC08" H 4130 1605 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 3900 1650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 3900 1650 50  0001 C CNN
+F 4 "C5593" H 3900 1650 50  0001 C CNN "LCSC"
+	5    3900 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PB170:74HC32 U?
+U 1 1 60125BE5
+P 2350 3400
+F 0 "U?" H 2325 3675 50  0000 C CNN
+F 1 "74HC32" H 2325 3584 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 1800 3600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC32D-653_C5632.pdf" H 1800 3600 50  0001 C CNN
+F 4 "C5632" H 2350 3400 50  0001 C CNN "LCSC"
+	1    2350 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L PB170:74HC32 U?
+U 2 1 601271F6
+P 2350 3800
+F 0 "U?" H 2325 4075 50  0000 C CNN
+F 1 "74HC32" H 2325 3984 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 1800 4000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC32D-653_C5632.pdf" H 1800 4000 50  0001 C CNN
+F 4 "C5632" H 2350 3800 50  0001 C CNN "LCSC"
+	2    2350 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L PB170:74HC32 U?
+U 3 1 60128ABF
+P 2350 4200
+F 0 "U?" H 2325 4475 50  0000 C CNN
+F 1 "74HC32" H 2325 4384 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 1800 4400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC32D-653_C5632.pdf" H 1800 4400 50  0001 C CNN
+F 4 "C5632" H 2350 4200 50  0001 C CNN "LCSC"
+	3    2350 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L PB170:74HC32 U?
+U 4 1 6012A0B0
+P 2350 4600
+F 0 "U?" H 2325 4875 50  0000 C CNN
+F 1 "74HC32" H 2325 4784 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 1800 4800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC32D-653_C5632.pdf" H 1800 4800 50  0001 C CNN
+F 4 "C5632" H 2350 4600 50  0001 C CNN "LCSC"
+	4    2350 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 3050 3350 3050
+Wire Wire Line
+	3200 3150 3350 3150
+Wire Wire Line
+	2600 2450 2900 2450
+Wire Wire Line
+	2900 2450 2900 2700
+Wire Wire Line
+	2900 2700 3350 2700
+Wire Wire Line
+	3350 2600 3000 2600
+Wire Wire Line
+	3000 2600 3000 2050
+Wire Wire Line
+	3000 2050 2600 2050
+Wire Wire Line
+	2600 1650 3100 1650
+Wire Wire Line
+	3100 1650 3100 2500
+Wire Wire Line
+	3100 2500 3350 2500
+Wire Wire Line
+	3350 2800 2750 2800
+Wire Wire Line
+	2750 2800 2750 2850
+Wire Wire Line
+	2750 2850 2600 2850
+Wire Wire Line
+	2550 4600 3100 4600
+Wire Wire Line
+	3100 3600 3350 3600
+Wire Wire Line
+	2550 4200 3000 4200
+Wire Wire Line
+	3000 4200 3000 3500
+Wire Wire Line
+	3000 3500 3350 3500
+Wire Wire Line
+	3350 3400 2900 3400
+Wire Wire Line
+	2900 3400 2900 3800
+Wire Wire Line
+	2900 3800 2550 3800
+Wire Wire Line
+	2800 3300 3350 3300
+Wire Wire Line
+	2550 3400 2800 3400
+Wire Wire Line
+	2800 3400 2800 3300
+Wire Wire Line
+	4350 2800 4550 2800
+Wire Wire Line
+	4350 2900 4550 2900
+Wire Wire Line
+	4350 3000 4550 3000
+Wire Wire Line
+	4350 3100 4550 3100
+Wire Wire Line
+	1150 1250 1950 1250
+Wire Wire Line
+	2100 3350 1950 3350
+Wire Wire Line
+	1950 3350 1950 1600
+Wire Wire Line
+	1950 1600 2050 1600
+Wire Wire Line
+	1150 1350 1850 1350
+Wire Wire Line
+	1850 2000 2050 2000
+Wire Wire Line
+	1850 2000 1850 3750
+Wire Wire Line
+	1850 3750 2100 3750
+Connection ~ 1850 2000
+Wire Wire Line
+	1750 2400 2050 2400
+Wire Wire Line
+	1750 2400 1750 4150
+Wire Wire Line
+	1750 4150 2100 4150
+Connection ~ 1750 2400
+Wire Wire Line
+	1150 1550 1650 1550
+Wire Wire Line
+	1650 4550 2100 4550
+Wire Wire Line
+	1150 1450 1750 1450
+Wire Wire Line
+	1950 1250 1950 1600
+Connection ~ 1950 1600
+Wire Wire Line
+	1850 1350 1850 2000
+Wire Wire Line
+	1750 1450 1750 2400
+Wire Wire Line
+	1150 1700 1550 1700
+Wire Wire Line
+	1550 1700 1550 3450
+Wire Wire Line
+	1550 3450 2100 3450
+Connection ~ 1550 1700
+Wire Wire Line
+	1550 1700 2050 1700
+Wire Wire Line
+	1150 1800 1450 1800
+Wire Wire Line
+	1450 1800 1450 2100
+Wire Wire Line
+	1450 2100 2050 2100
+Wire Wire Line
+	1450 2100 1450 3850
+Wire Wire Line
+	1450 3850 2100 3850
+Connection ~ 1450 2100
+Wire Wire Line
+	1150 1900 1350 1900
+Wire Wire Line
+	1350 1900 1350 2500
+Wire Wire Line
+	1350 4250 2100 4250
+Wire Wire Line
+	1350 2500 2050 2500
+Connection ~ 1350 2500
+Wire Wire Line
+	1350 2500 1350 4250
+Wire Wire Line
+	1150 2000 1250 2000
+Wire Wire Line
+	1250 4650 2100 4650
+Wire Wire Line
+	1650 1550 1650 2800
+Wire Wire Line
+	1250 2000 1250 2900
+Wire Wire Line
+	2050 2900 1250 2900
+Connection ~ 1250 2900
+Wire Wire Line
+	1250 2900 1250 4650
+Wire Wire Line
+	1650 2800 2050 2800
+Connection ~ 1650 2800
+Wire Wire Line
+	1650 2800 1650 4550
+$Sheet
+S 3350 2200 1000 1600
+U 6027A5F8
+F0 "sheet6027A5E8" 50
+F1 "op-mux.sch" 50
+F2 "IN_A0" I L 3350 2500 50 
+F3 "IN_A1" I L 3350 2600 50 
+F4 "IN_A2" I L 3350 2700 50 
+F5 "IN_A3" I L 3350 2800 50 
+F6 "IN_B0" I L 3350 3300 50 
+F7 "IN_B1" I L 3350 3400 50 
+F8 "IN_B2" I L 3350 3500 50 
+F9 "IN_B3" I L 3350 3600 50 
+F10 "IN_OP" I L 3350 3050 50 
+F11 "OUT_Y0" O R 4350 2800 50 
+F12 "OUT_Y1" O R 4350 2900 50 
+F13 "OUT_Y2" O R 4350 3000 50 
+F14 "OUT_Y3" O R 4350 3100 50 
+F15 "IN_NOT_OP" I L 3350 3150 50 
+$EndSheet
+$Comp
+L power:+5V #PWR?
+U 1 1 60394FB3
+P 3400 1650
+AR Path="/60394FB3" Ref="#PWR?"  Part="1" 
+AR Path="/5FEB4D4D/60394FB3" Ref="#PWR?"  Part="1" 
+AR Path="/600A4AF3/600A5215/60394FB3" Ref="#PWR?"  Part="1" 
+AR Path="/600A4AF3/60394FB3" Ref="#PWR?"  Part="1" 
+AR Path="/600A4AF3/600D523C/60394FB3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3400 1500 50  0001 C CNN
+F 1 "+5V" V 3415 1778 50  0000 L CNN
+F 2 "" H 3400 1650 50  0001 C CNN
+F 3 "" H 3400 1650 50  0001 C CNN
+	1    3400 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 603C6652
+P 4400 1650
+AR Path="/603C6652" Ref="#PWR?"  Part="1" 
+AR Path="/5FEB4D4D/603C6652" Ref="#PWR?"  Part="1" 
+AR Path="/600A4AF3/600A5215/603C6652" Ref="#PWR?"  Part="1" 
+AR Path="/600A4AF3/603C6652" Ref="#PWR?"  Part="1" 
+AR Path="/600A4AF3/600D523C/603C6652" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4400 1400 50  0001 C CNN
+F 1 "GND" V 4405 1522 50  0000 R CNN
+F 2 "" H 4400 1650 50  0001 C CNN
+F 3 "" H 4400 1650 50  0001 C CNN
+	1    4400 1650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 4600 3100 3600
+$Comp
+L power:GND #PWR?
+U 1 1 603C34D8
+P 4250 4400
+AR Path="/603C34D8" Ref="#PWR?"  Part="1" 
+AR Path="/5FEB4D4D/603C34D8" Ref="#PWR?"  Part="1" 
+AR Path="/600A4AF3/600A5215/603C34D8" Ref="#PWR?"  Part="1" 
+AR Path="/600A4AF3/603C34D8" Ref="#PWR?"  Part="1" 
+AR Path="/600A4AF3/600D523C/603C34D8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4250 4150 50  0001 C CNN
+F 1 "GND" V 4255 4272 50  0000 R CNN
+F 2 "" H 4250 4400 50  0001 C CNN
+F 3 "" H 4250 4400 50  0001 C CNN
+	1    4250 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6039E897
+P 3550 4400
+AR Path="/6039E897" Ref="#PWR?"  Part="1" 
+AR Path="/5FEB4D4D/6039E897" Ref="#PWR?"  Part="1" 
+AR Path="/600A4AF3/600A5215/6039E897" Ref="#PWR?"  Part="1" 
+AR Path="/600A4AF3/6039E897" Ref="#PWR?"  Part="1" 
+AR Path="/600A4AF3/600D523C/6039E897" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3550 4250 50  0001 C CNN
+F 1 "+5V" V 3565 4528 50  0000 L CNN
+F 2 "" H 3550 4400 50  0001 C CNN
+F 3 "" H 3550 4400 50  0001 C CNN
+	1    3550 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PB170:74HC32 U?
+U 5 1 6012B245
+P 3900 4100
+F 0 "U?" H 3778 4146 50  0000 L CNN
+F 1 "74HC32" H 3778 4055 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 3350 4300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC32D-653_C5632.pdf" H 3350 4300 50  0001 C CNN
+F 4 "C5632" H 3900 4100 50  0001 C CNN "LCSC"
+	5    3900 4100
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

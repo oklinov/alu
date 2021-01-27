@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 9
+Sheet 4 10
 Title ""
 Date ""
 Rev ""
@@ -34,25 +34,6 @@ F14 "OUT_Y3" O R 4900 2400 50
 F15 "OUT_OF" O R 4900 2850 50 
 $EndSheet
 $Sheet
-S 3650 3700 1250 1800
-U 600D523C
-F0 "SheetLogic" 50
-F1 "logic.sch" 50
-F2 "IN_A0" I L 3650 3950 50 
-F3 "IN_A1" I L 3650 4050 50 
-F4 "IN_A2" I L 3650 4150 50 
-F5 "IN_A3" I L 3650 4250 50 
-F6 "IN_B0" I L 3650 4850 50 
-F7 "IN_B1" I L 3650 4950 50 
-F8 "IN_B2" I L 3650 5050 50 
-F9 "IN_B3" I L 3650 5150 50 
-F10 "IN_OR" I L 3650 4550 50 
-F11 "OUT_Y0" O R 4900 4150 50 
-F12 "OUT_Y1" O R 4900 4250 50 
-F13 "OUT_Y2" O R 4900 4350 50 
-F14 "OUT_Y3" O R 4900 4450 50 
-$EndSheet
-$Sheet
 S 6700 1800 1000 1600
 U 600D6CED
 F0 "SheetOperationMux" 50
@@ -70,6 +51,7 @@ F11 "OUT_Y0" O R 7700 2400 50
 F12 "OUT_Y1" O R 7700 2500 50 
 F13 "OUT_Y2" O R 7700 2600 50 
 F14 "OUT_Y3" O R 7700 2700 50 
+F15 "IN_NOT_OP" I L 6700 2750 50 
 $EndSheet
 Wire Wire Line
 	4900 2100 6700 2100
@@ -295,20 +277,6 @@ F 4 "C5632" H 5750 7150 50  0001 C CNN "LCSC"
 $EndComp
 $Comp
 L 74xx:74HC00 U?
-U 2 1 601C1306
-P 7500 3850
-AR Path="/5FEB4D4D/601C1306" Ref="U?"  Part="2" 
-AR Path="/600A4AF3/601C1306" Ref="U?"  Part="2" 
-F 0 "U?" H 7500 4175 50  0000 C CNN
-F 1 "74HC00" H 7500 4084 50  0000 C CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 7500 3850 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74HC00PWR_C6807.pdf" H 7500 3850 50  0001 C CNN
-F 4 "C6807" H 7500 3850 50  0001 C CNN "LCSC"
-	2    7500 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC00 U?
 U 1 1 601C1314
 P 9400 4950
 AR Path="/5FEB4D4D/601C1314" Ref="U?"  Part="4" 
@@ -319,20 +287,6 @@ F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 9400 4950 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74HC00PWR_C6807.pdf" H 9400 4950 50  0001 C CNN
 F 4 "C6807" H 9400 4950 50  0001 C CNN "LCSC"
 	1    9400 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC00 U?
-U 5 1 601C131B
-P 6350 6800
-AR Path="/5FEB4D4D/601C131B" Ref="U?"  Part="5" 
-AR Path="/600A4AF3/601C131B" Ref="U?"  Part="5" 
-F 0 "U?" H 6580 6846 50  0000 L CNN
-F 1 "74HC00" H 6580 6755 50  0000 L CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6350 6800 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74HC00PWR_C6807.pdf" H 6350 6800 50  0001 C CNN
-F 4 "C6807" H 6350 6800 50  0001 C CNN "LCSC"
-	5    6350 6800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -357,8 +311,6 @@ Wire Wire Line
 	9150 2700 9500 2700
 Wire Wire Line
 	4900 2850 5600 2850
-Wire Wire Line
-	5600 2850 5600 4050
 $Comp
 L PB170:74HC08 U?
 U 1 1 602410A7
@@ -379,8 +331,6 @@ Wire Wire Line
 	9750 3250 9750 3900
 Wire Wire Line
 	9750 3900 9050 3900
-Wire Wire Line
-	5850 2650 5850 3850
 Wire Wire Line
 	8100 4650 8100 2700
 Connection ~ 8100 2700
@@ -407,22 +357,6 @@ Wire Wire Line
 Connection ~ 7950 2400
 Wire Wire Line
 	7950 2400 9500 2400
-Wire Wire Line
-	7800 3850 8500 3850
-Wire Wire Line
-	8500 3950 8500 4050
-Wire Wire Line
-	8500 4050 5600 4050
-Wire Wire Line
-	7200 3750 7200 3850
-Wire Wire Line
-	7200 3850 5850 3850
-Connection ~ 7200 3850
-Wire Wire Line
-	7200 3850 7200 3950
-Connection ~ 5850 3850
-Wire Wire Line
-	5850 3850 5850 5900
 $Comp
 L PB170:74HC08 U?
 U 5 1 6029D5E1
@@ -440,8 +374,6 @@ $EndComp
 Connection ~ 2850 4550
 Text HLabel 2500 5800 0    50   Input ~ 0
 IN_OP0
-Wire Wire Line
-	2500 5800 2850 5800
 Wire Wire Line
 	2850 5800 2850 4550
 $Comp
@@ -519,6 +451,39 @@ F 3 "" H 5450 7500 50  0001 C CNN
 	1    5450 7500
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 3650 3700 1250 1800
+U 600D523C
+F0 "SheetLogic" 50
+F1 "logic.sch" 50
+F2 "IN_A0" I L 3650 3950 50 
+F3 "IN_A1" I L 3650 4050 50 
+F4 "IN_A2" I L 3650 4150 50 
+F5 "IN_A3" I L 3650 4250 50 
+F6 "IN_B0" I L 3650 4850 50 
+F7 "IN_B1" I L 3650 4950 50 
+F8 "IN_B2" I L 3650 5050 50 
+F9 "IN_B3" I L 3650 5150 50 
+F10 "IN_OR" I L 3650 4550 50 
+F11 "OUT_Y0" O R 4900 4150 50 
+F12 "OUT_Y1" O R 4900 4250 50 
+F13 "OUT_Y2" O R 4900 4350 50 
+F14 "OUT_Y3" O R 4900 4450 50 
+F15 "IN_NOT_OR" I L 3650 4650 50 
+$EndSheet
+$Comp
+L 74xx:74HC00 U?
+U 3 1 603629D0
+P 2650 5350
+F 0 "U?" V 2696 5170 50  0000 R CNN
+F 1 "74HC00" V 2605 5170 50  0000 R CNN
+F 2 "" H 2650 5350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 2650 5350 50  0001 C CNN
+	3    2650 5350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2650 4650 3650 4650
 $Comp
 L power:GND #PWR?
 U 1 1 602F97D5
@@ -534,4 +499,71 @@ F 3 "" H 6350 7300 50  0001 C CNN
 	1    6350 7300
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5850 2650 5850 5900
+Connection ~ 5850 5900
+Wire Wire Line
+	2500 5800 2650 5800
+Wire Wire Line
+	2550 5650 2650 5650
+Wire Wire Line
+	2650 5650 2650 5800
+Connection ~ 2650 5650
+Wire Wire Line
+	2650 5650 2750 5650
+Connection ~ 2650 5800
+Wire Wire Line
+	2650 5800 2850 5800
+$Comp
+L 74xx:74HC00 U?
+U 5 1 601C131B
+P 6350 6800
+AR Path="/5FEB4D4D/601C131B" Ref="U?"  Part="5" 
+AR Path="/600A4AF3/601C131B" Ref="U?"  Part="5" 
+F 0 "U?" H 6580 6846 50  0000 L CNN
+F 1 "74HC00" H 6580 6755 50  0000 L CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6350 6800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74HC00PWR_C6807.pdf" H 6350 6800 50  0001 C CNN
+F 4 "C6807" H 6350 6800 50  0001 C CNN "LCSC"
+	5    6350 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 5900 5850 5900
+Wire Wire Line
+	6050 5650 6150 5650
+Connection ~ 6050 5650
+Wire Wire Line
+	6050 5650 6050 5900
+Wire Wire Line
+	5950 5650 6050 5650
+$Comp
+L 74xx:74HC00 U?
+U 2 1 601C1306
+P 6050 5350
+AR Path="/5FEB4D4D/601C1306" Ref="U?"  Part="2" 
+AR Path="/600A4AF3/601C1306" Ref="U?"  Part="2" 
+F 0 "U?" H 6050 5675 50  0000 C CNN
+F 1 "74HC00" H 6050 5584 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6050 5350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74HC00PWR_C6807.pdf" H 6050 5350 50  0001 C CNN
+F 4 "C6807" H 6050 5350 50  0001 C CNN "LCSC"
+	2    6050 5350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6050 2750 6700 2750
+Wire Wire Line
+	5600 2850 5600 3850
+Wire Wire Line
+	5600 3850 8500 3850
+Wire Wire Line
+	8500 3950 6050 3950
+Wire Wire Line
+	6050 2750 6050 3950
+Connection ~ 6050 3950
+Wire Wire Line
+	6050 3950 6050 5050
+Wire Wire Line
+	2650 4650 2650 5050
 $EndSCHEMATC
