@@ -5,6 +5,6 @@ Add your user guide here.
 
 ## Photos
 
-![Sample PCB image (unrouted)](PB170/preview/3D.png)
+![Sample PCB image (unrouted)](preview/3D.png)
 
-![Sample PCB image using ray tracing (unrouted)](PB170/preview/raytracing.png)
+![Sample PCB image using ray tracing (unrouted)](preview/raytracing.png)
