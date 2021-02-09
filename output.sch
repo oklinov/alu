@@ -13,8 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1750 1000 0    50   Input ~ 0
-IN_Y0
 Text HLabel 1750 1600 0    50   Input ~ 0
 IN_Y1
 Text HLabel 1750 2250 0    50   Input ~ 0
@@ -27,47 +25,6 @@ Text HLabel 1750 4100 0    50   Input ~ 0
 IN_NF
 Text HLabel 1750 4700 0    50   Input ~ 0
 IN_ZF
-$Comp
-L Device:LED D?
-U 1 1 604E7238
-P 2050 1000
-AR Path="/604E7238" Ref="D?"  Part="1" 
-AR Path="/60318070/604E7238" Ref="D?"  Part="1" 
-F 0 "D?" V 2089 883 50  0000 R CNN
-F 1 "LED green" V 1998 883 50  0000 R CNN
-F 2 "LEDs:LED_0603" H 2050 1000 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811101510_Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" H 2050 1000 50  0001 C CNN
-F 4 "C72043" V 2050 1000 50  0001 C CNN "LCSC"
-	1    2050 1000
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 604E723F
-P 2350 1000
-AR Path="/604E723F" Ref="R?"  Part="1" 
-AR Path="/60318070/604E723F" Ref="R?"  Part="1" 
-F 0 "R?" H 2420 1046 50  0000 L CNN
-F 1 "180R" H 2420 955 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" V 2280 1000 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1800T5E_C22828.pdf" H 2350 1000 50  0001 C CNN
-F 4 "C22828" H 2350 1000 50  0001 C CNN "LCSC"
-	1    2350 1000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 604E7245
-P 2500 1000
-AR Path="/604E7245" Ref="#PWR?"  Part="1" 
-AR Path="/60318070/604E7245" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2500 750 50  0001 C CNN
-F 1 "GND" H 2505 827 50  0000 C CNN
-F 2 "" H 2500 1000 50  0001 C CNN
-F 3 "" H 2500 1000 50  0001 C CNN
-	1    2500 1000
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:LED D?
 U 1 1 604E77BF
@@ -192,8 +149,6 @@ F 3 "" H 2500 2850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1750 1000 1900 1000
-Wire Wire Line
 	1750 1600 1900 1600
 Wire Wire Line
 	1750 2250 1900 2250
@@ -316,4 +271,49 @@ Wire Wire Line
 	1750 4100 1900 4100
 Wire Wire Line
 	1750 4700 1900 4700
+Wire Wire Line
+	1750 1000 1900 1000
+$Comp
+L power:GND #PWR?
+U 1 1 604E7245
+P 2500 1000
+AR Path="/604E7245" Ref="#PWR?"  Part="1" 
+AR Path="/60318070/604E7245" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2500 750 50  0001 C CNN
+F 1 "GND" H 2505 827 50  0000 C CNN
+F 2 "" H 2500 1000 50  0001 C CNN
+F 3 "" H 2500 1000 50  0001 C CNN
+	1    2500 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 604E723F
+P 2350 1000
+AR Path="/604E723F" Ref="R?"  Part="1" 
+AR Path="/60318070/604E723F" Ref="R?"  Part="1" 
+F 0 "R?" H 2420 1046 50  0000 L CNN
+F 1 "180R" H 2420 955 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 2280 1000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1800T5E_C22828.pdf" H 2350 1000 50  0001 C CNN
+F 4 "C22828" H 2350 1000 50  0001 C CNN "LCSC"
+	1    2350 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 604E7238
+P 2050 1000
+AR Path="/604E7238" Ref="D?"  Part="1" 
+AR Path="/60318070/604E7238" Ref="D?"  Part="1" 
+F 0 "D?" V 2089 883 50  0000 R CNN
+F 1 "LED green" V 1998 883 50  0000 R CNN
+F 2 "LEDs:LED_0603" H 2050 1000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811101510_Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" H 2050 1000 50  0001 C CNN
+F 4 "C72043" V 2050 1000 50  0001 C CNN "LCSC"
+	1    2050 1000
+	-1   0    0    1   
+$EndComp
+Text HLabel 1750 1000 0    50   Input ~ 0
+IN_Y0
 $EndSCHEMATC
