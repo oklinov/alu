@@ -23,7 +23,7 @@ F 2 "Resistors_SMD:R_0603" V 1330 3550 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF2200T5E_C22962.pdf" H 1400 3550 50  0001 C CNN
 F 4 "C22962" H 1400 3550 50  0001 C CNN "LCSC"
 	1    1400 3550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D1
@@ -35,7 +35,7 @@ F 2 "LEDs:LED_0603" H 1400 3850 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" H 1400 3850 50  0001 C CNN
 F 4 "C2286" V 1400 3850 50  0001 C CNN "LCSC"
 	1    1400 3850
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J_PWR1
@@ -46,7 +46,7 @@ F 1 "Conn_01x03" H 2580 2001 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 2500 2050 50  0001 C CNN
 F 3 "~" H 2500 2050 50  0001 C CNN
 	1    2500 2050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0101
@@ -57,7 +57,7 @@ F 1 "GND" V 2205 2022 50  0000 R CNN
 F 2 "" H 2200 2150 50  0001 C CNN
 F 3 "" H 2200 2150 50  0001 C CNN
 	1    2200 2150
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0102
@@ -68,7 +68,7 @@ F 1 "GND" V 2205 1822 50  0000 R CNN
 F 2 "" H 2200 1950 50  0001 C CNN
 F 3 "" H 2200 1950 50  0001 C CNN
 	1    2200 1950
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L power:+5V #PWR0103
@@ -79,7 +79,7 @@ F 1 "+5V" V 1315 2128 50  0000 L CNN
 F 2 "" H 1300 2000 50  0001 C CNN
 F 3 "" H 1300 2000 50  0001 C CNN
 	1    1300 2000
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2200 1950 2300 1950
@@ -92,7 +92,7 @@ F 1 "GND" H 1405 3827 50  0000 C CNN
 F 2 "" H 1400 4000 50  0001 C CNN
 F 3 "" H 1400 4000 50  0001 C CNN
 	1    1400 4000
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0107
@@ -103,7 +103,7 @@ F 1 "+5V" H 1415 3573 50  0000 C CNN
 F 2 "" H 1400 3400 50  0001 C CNN
 F 3 "" H 1400 3400 50  0001 C CNN
 	1    1400 3400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C1
@@ -115,7 +115,7 @@ F 2 "Capacitors_SMD:C_0805" H 2088 3500 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 2050 3650 50  0001 C CNN
 F 4 "C15850" H 2050 3650 50  0001 C CNN "LCSC"
 	1    2050 3650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C2
@@ -127,7 +127,7 @@ F 2 "Capacitors_SMD:C_0603" H 2588 3500 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 2550 3650 50  0001 C CNN
 F 4 "C14663" H 2550 3650 50  0001 C CNN "LCSC"
 	1    2550 3650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0113
@@ -138,7 +138,7 @@ F 1 "GND" V 2305 3722 50  0000 R CNN
 F 2 "" H 2300 3850 50  0001 C CNN
 F 3 "" H 2300 3850 50  0001 C CNN
 	1    2300 3850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0114
@@ -149,7 +149,7 @@ F 1 "+5V" V 2315 3578 50  0000 L CNN
 F 2 "" H 2300 3450 50  0001 C CNN
 F 3 "" H 2300 3450 50  0001 C CNN
 	1    2300 3450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2050 3800 2300 3800
@@ -175,7 +175,7 @@ F 2 "PB170:MLP3.3X3.3_HS" H 1650 2150 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Wuxi-NCE-Power-Semiconductor-NCE20P45Q_C193354.pdf" H 1650 2150 50  0001 C CNN
 F 4 "C193354" H 1650 2150 50  0001 C CNN "LCSC"
 	1    1650 2150
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:USB_B_Micro J2
@@ -187,7 +187,7 @@ F 2 "PB170:MICRO-USB-SMD_MICROXNJ" H 1600 6200 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_SHOU-HAN-MicroXNJ_C404969.pdf" H 1600 6200 50  0001 C CNN
 F 4 "C404969" H 1450 6250 50  0001 C CNN "LCSC"
 	1    1450 6250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R9
@@ -199,7 +199,7 @@ F 2 "Resistors_SMD:R_0603" V 1480 2400 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 1550 2400 50  0001 C CNN
 F 4 "C25804" H 1550 2400 50  0001 C CNN "LCSC"
 	1    1550 2400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0119
@@ -210,7 +210,7 @@ F 1 "GND" V 1555 2422 50  0000 R CNN
 F 2 "" H 1550 2550 50  0001 C CNN
 F 3 "" H 1550 2550 50  0001 C CNN
 	1    1550 2550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2300 2050 1850 2050
@@ -221,9 +221,9 @@ Wire Wire Line
 Wire Notes Line
 	950  4450 3250 4450
 Wire Notes Line
-	3250 4450 3250 950
+	3250 4450 3250 950 
 Wire Notes Line
-	3250 950  950  950
+	3250 950  950  950 
 Wire Notes Line
 	950  950  950  4450
 $Comp
@@ -236,7 +236,7 @@ F 2 "Resistors_SMD:R_0603" V 1830 6350 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF2200T5E_C22962.pdf" H 1900 6350 50  0001 C CNN
 F 4 "C22962" H 1900 6350 50  0001 C CNN "LCSC"
 	1    1900 6350
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	1750 6250 2050 6250
@@ -251,7 +251,7 @@ F 1 "GND" H 1355 6577 50  0000 C CNN
 F 2 "" H 1350 6750 50  0001 C CNN
 F 3 "" H 1350 6750 50  0001 C CNN
 	1    1350 6750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1350 6750 1350 6700
@@ -271,7 +271,7 @@ F 1 "+5V" H 1815 6173 50  0000 C CNN
 F 2 "" H 1800 6000 50  0001 C CNN
 F 3 "" H 1800 6000 50  0001 C CNN
 	1    1800 6000
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1750 6050 1800 6050
@@ -282,9 +282,9 @@ Wire Notes Line
 Wire Notes Line
 	4650 4850 10700 4850
 Wire Notes Line
-	10700 4850 10700 950
+	10700 4850 10700 950 
 Wire Notes Line
-	10700 950  4650 950
+	10700 950  4650 950 
 Wire Notes Line
 	950  5150 950  7550
 Wire Notes Line
@@ -313,7 +313,7 @@ F 1 "USB_C_Receptacle_USB2.0-Connector" H 1757 7026 50  0000 C CNN
 F 2 "PB170:USB_C_Female-16Pin-HPJF" H 1800 6250 50  0001 C CNN
 F 3 "" H 1800 6250 50  0001 C CNN
 	1    1650 6250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1350 7250 1350 7200
@@ -336,14 +336,12 @@ Wire Wire Line
 	2250 6250 2300 6250
 Wire Wire Line
 	2300 6250 2300 6150
-Connection ~ 2300 6150
 Wire Wire Line
 	2300 6150 2600 6150
 Wire Wire Line
 	2250 6350 2300 6350
 Wire Wire Line
 	2300 6350 2300 6450
-Connection ~ 2300 6450
 Wire Wire Line
 	2300 6450 2600 6450
 Wire Wire Line
@@ -357,7 +355,7 @@ F 1 "MountingHole_Pad" H 5250 6108 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 5150 6150 50  0001 C CNN
 F 3 "~" H 5150 6150 50  0001 C CNN
 	1    5150 6150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H2
@@ -368,7 +366,7 @@ F 1 "MountingHole_Pad" H 5250 6458 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 5150 6500 50  0001 C CNN
 F 3 "~" H 5150 6500 50  0001 C CNN
 	1    5150 6500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H3
@@ -379,7 +377,7 @@ F 1 "MountingHole_Pad" H 5250 6808 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 5150 6850 50  0001 C CNN
 F 3 "~" H 5150 6850 50  0001 C CNN
 	1    5150 6850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H4
@@ -390,14 +388,14 @@ F 1 "MountingHole_Pad" H 5250 7158 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 5150 7200 50  0001 C CNN
 F 3 "~" H 5150 7200 50  0001 C CNN
 	1    5150 7200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 NoConn ~ 5150 6250
 NoConn ~ 5150 6600
 NoConn ~ 5150 6950
 NoConn ~ 5150 7300
 $Sheet
-S 6950 5250 1550 850
+S 6950 5250 1550 850 
 U 5FEB4D4D
 F0 "New parts" 50
 F1 "newParts.sch" 50
@@ -407,36 +405,36 @@ S 7100 2150 900  1450
 U 600A4AF3
 F0 "SheetALU" 50
 F1 "alu.sch" 50
-F2 "IN_A0" I L 7100 2250 50
-F3 "IN_B0" I L 7100 3150 50
-F4 "IN_A1" I L 7100 2350 50
-F5 "IN_A2" I L 7100 2450 50
-F6 "IN_A3" I L 7100 2550 50
-F7 "IN_B1" I L 7100 3250 50
-F8 "IN_B2" I L 7100 3350 50
-F9 "IN_B3" I L 7100 3450 50
-F10 "IN_OP0" I L 7100 2750 50
-F11 "IN_OP1" I L 7100 2850 50
-F12 "OUT_Y0" O R 8000 2400 50
-F13 "OUT_Y1" O R 8000 2500 50
-F14 "OUT_Y2" O R 8000 2600 50
-F15 "OUT_Y3" O R 8000 2700 50
-F16 "OUT_OF" O R 8000 3100 50
-F17 "OUT_NF" O R 8000 3200 50
-F18 "OUT_ZF" O R 8000 3300 50
+F2 "IN_A0" I L 7100 2250 50 
+F3 "IN_B0" I L 7100 3150 50 
+F4 "IN_A1" I L 7100 2350 50 
+F5 "IN_A2" I L 7100 2450 50 
+F6 "IN_A3" I L 7100 2550 50 
+F7 "IN_B1" I L 7100 3250 50 
+F8 "IN_B2" I L 7100 3350 50 
+F9 "IN_B3" I L 7100 3450 50 
+F10 "IN_OP0" I L 7100 2750 50 
+F11 "IN_OP1" I L 7100 2850 50 
+F12 "OUT_Y0" O R 8000 2400 50 
+F13 "OUT_Y1" O R 8000 2500 50 
+F14 "OUT_Y2" O R 8000 2600 50 
+F15 "OUT_Y3" O R 8000 2700 50 
+F16 "OUT_OF" O R 8000 3100 50 
+F17 "OUT_NF" O R 8000 3200 50 
+F18 "OUT_ZF" O R 8000 3300 50 
 $EndSheet
 $Sheet
 S 8350 2300 500  1100
 U 60318070
 F0 "SheetOutput" 50
 F1 "output.sch" 50
-F2 "IN_Y0" I L 8350 2400 50
-F3 "IN_Y1" I L 8350 2500 50
-F4 "IN_Y2" I L 8350 2600 50
-F5 "IN_Y3" I L 8350 2700 50
-F6 "IN_OF" I L 8350 3100 50
-F7 "IN_NF" I L 8350 3200 50
-F8 "IN_ZF" I L 8350 3300 50
+F2 "IN_Y0" I L 8350 2400 50 
+F3 "IN_Y1" I L 8350 2500 50 
+F4 "IN_Y2" I L 8350 2600 50 
+F5 "IN_Y3" I L 8350 2700 50 
+F6 "IN_OF" I L 8350 3100 50 
+F7 "IN_NF" I L 8350 3200 50 
+F8 "IN_ZF" I L 8350 3300 50 
 $EndSheet
 Wire Wire Line
 	8000 2400 8350 2400
@@ -457,16 +455,16 @@ S 6100 2200 650  1350
 U 60342E90
 F0 "SheetInput" 50
 F1 "input.sch" 50
-F2 "OUT_A0" O R 6750 2250 50
-F3 "OUT_A1" O R 6750 2350 50
-F4 "OUT_A2" O R 6750 2450 50
-F5 "OUT_A3" O R 6750 2550 50
-F6 "OUT_OP0" O R 6750 2750 50
-F7 "OUT_OP1" O R 6750 2850 50
-F8 "OUT_B0" O R 6750 3150 50
-F9 "OUT_B1" O R 6750 3250 50
-F10 "OUT_B2" O R 6750 3350 50
-F11 "OUT_B3" O R 6750 3450 50
+F2 "OUT_A0" O R 6750 2250 50 
+F3 "OUT_A1" O R 6750 2350 50 
+F4 "OUT_A2" O R 6750 2450 50 
+F5 "OUT_A3" O R 6750 2550 50 
+F6 "OUT_OP0" O R 6750 2750 50 
+F7 "OUT_OP1" O R 6750 2850 50 
+F8 "OUT_B0" O R 6750 3150 50 
+F9 "OUT_B1" O R 6750 3250 50 
+F10 "OUT_B2" O R 6750 3350 50 
+F11 "OUT_B3" O R 6750 3450 50 
 $EndSheet
 Wire Wire Line
 	6750 2250 7100 2250
