@@ -881,4 +881,9 @@ F 4 "C5632" H 6400 5350 50  0001 C CNN "LCSC"
 	3    6400 5350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2650 3500 4300 3500
+Wire Wire Line
+	4300 3500 4300 1850
+Connection ~ 2650 3500
 $EndSCHEMATC
