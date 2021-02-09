@@ -17,27 +17,27 @@ $Comp
 L power:GND #PWR?
 U 1 1 5FE92EF7
 P 4050 1950
-AR Path="/5FE92EF7" Ref="#PWR?"  Part="1" 
-AR Path="/5FEB4D4D/5FE92EF7" Ref="#PWR0125"  Part="1" 
+AR Path="/5FE92EF7" Ref="#PWR?"  Part="1"
+AR Path="/5FEB4D4D/5FE92EF7" Ref="#PWR0125"  Part="1"
 F 0 "#PWR0125" H 4050 1700 50  0001 C CNN
 F 1 "GND" V 4055 1822 50  0000 R CNN
 F 2 "" H 4050 1950 50  0001 C CNN
 F 3 "" H 4050 1950 50  0001 C CNN
 	1    4050 1950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5FE92EFD
 P 4050 950
-AR Path="/5FE92EFD" Ref="#PWR?"  Part="1" 
-AR Path="/5FEB4D4D/5FE92EFD" Ref="#PWR0126"  Part="1" 
+AR Path="/5FE92EFD" Ref="#PWR?"  Part="1"
+AR Path="/5FEB4D4D/5FE92EFD" Ref="#PWR0126"  Part="1"
 F 0 "#PWR0126" H 4050 800 50  0001 C CNN
 F 1 "+5V" V 4065 1078 50  0000 L CNN
 F 2 "" H 4050 950 50  0001 C CNN
 F 3 "" H 4050 950 50  0001 C CNN
-	1    4050 950 
-	1    0    0    -1  
+	1    4050 950
+	1    0    0    -1
 $EndComp
 $Comp
 L PB170:74HC08 U2
@@ -49,7 +49,7 @@ F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 1000 1450 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 1000 1450 50  0001 C CNN
 F 4 "C5593" H 1000 1450 50  0001 C CNN "LCSC"
 	1    1000 1450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L PB170:74HC08 U2
@@ -61,7 +61,7 @@ F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 1800 1450 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 1800 1450 50  0001 C CNN
 F 4 "C5593" H 1800 1450 50  0001 C CNN "LCSC"
 	2    1800 1450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L PB170:74HC08 U2
@@ -73,7 +73,7 @@ F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 2550 1450 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 2550 1450 50  0001 C CNN
 F 4 "C5593" H 2550 1450 50  0001 C CNN "LCSC"
 	3    2550 1450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L PB170:74HC08 U2
@@ -85,7 +85,7 @@ F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 3300 1450 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 3300 1450 50  0001 C CNN
 F 4 "C5593" H 3300 1450 50  0001 C CNN "LCSC"
 	4    3300 1450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L PB170:74HC08 U2
@@ -97,7 +97,7 @@ F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 4050 1450 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 4050 1450 50  0001 C CNN
 F 4 "C5593" H 4050 1450 50  0001 C CNN "LCSC"
 	5    4050 1450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L PB170:74HC4511D U3
@@ -109,33 +109,33 @@ F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 5650 1550 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC4511D-653_C87661.pdf" H 5650 1550 50  0001 C CNN
 F 4 "C87661" H 5650 1550 50  0001 C CNN "LCSC"
 	1    5650 1550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5FE90CCE
 P 5650 1100
-AR Path="/5FE90CCE" Ref="#PWR?"  Part="1" 
-AR Path="/5FEB4D4D/5FE90CCE" Ref="#PWR0127"  Part="1" 
+AR Path="/5FE90CCE" Ref="#PWR?"  Part="1"
+AR Path="/5FEB4D4D/5FE90CCE" Ref="#PWR0127"  Part="1"
 F 0 "#PWR0127" H 5650 950 50  0001 C CNN
 F 1 "+5V" V 5665 1228 50  0000 L CNN
 F 2 "" H 5650 1100 50  0001 C CNN
 F 3 "" H 5650 1100 50  0001 C CNN
 	1    5650 1100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5FE91294
 P 5650 2050
-AR Path="/5FE91294" Ref="#PWR?"  Part="1" 
-AR Path="/5FEB4D4D/5FE91294" Ref="#PWR0128"  Part="1" 
+AR Path="/5FE91294" Ref="#PWR?"  Part="1"
+AR Path="/5FEB4D4D/5FE91294" Ref="#PWR0128"  Part="1"
 F 0 "#PWR0128" H 5650 1800 50  0001 C CNN
 F 1 "GND" V 5655 1922 50  0000 R CNN
 F 2 "" H 5650 2050 50  0001 C CNN
 F 3 "" H 5650 2050 50  0001 C CNN
 	1    5650 2050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L PB170:HEF4518BT U4
@@ -147,7 +147,7 @@ F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 7150 1550 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-HEF4518BT-653_C7870.pdf" H 7150 1550 50  0001 C CNN
 F 4 "C7870" H 7150 1550 50  0001 C CNN "LCSC"
 	1    7150 1550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L PB170:HEF4518BT U4
@@ -159,7 +159,7 @@ F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 8200 1550 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-HEF4518BT-653_C7870.pdf" H 8200 1550 50  0001 C CNN
 F 4 "C7870" H 8200 1550 50  0001 C CNN "LCSC"
 	2    8200 1550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L PB170:HEF4518BT U4
@@ -171,33 +171,33 @@ F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 9350 1550 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-HEF4518BT-653_C7870.pdf" H 9350 1550 50  0001 C CNN
 F 4 "C7870" H 9350 1550 50  0001 C CNN "LCSC"
 	3    9350 1550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5FE97657
 P 9350 1250
-AR Path="/5FE97657" Ref="#PWR?"  Part="1" 
-AR Path="/5FEB4D4D/5FE97657" Ref="#PWR0129"  Part="1" 
+AR Path="/5FE97657" Ref="#PWR?"  Part="1"
+AR Path="/5FEB4D4D/5FE97657" Ref="#PWR0129"  Part="1"
 F 0 "#PWR0129" H 9350 1100 50  0001 C CNN
 F 1 "+5V" V 9365 1378 50  0000 L CNN
 F 2 "" H 9350 1250 50  0001 C CNN
 F 3 "" H 9350 1250 50  0001 C CNN
 	1    9350 1250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5FE97C84
 P 9350 1850
-AR Path="/5FE97C84" Ref="#PWR?"  Part="1" 
-AR Path="/5FEB4D4D/5FE97C84" Ref="#PWR0130"  Part="1" 
+AR Path="/5FE97C84" Ref="#PWR?"  Part="1"
+AR Path="/5FEB4D4D/5FE97C84" Ref="#PWR0130"  Part="1"
 F 0 "#PWR0130" H 9350 1600 50  0001 C CNN
 F 1 "GND" V 9355 1722 50  0000 R CNN
 F 2 "" H 9350 1850 50  0001 C CNN
 F 3 "" H 9350 1850 50  0001 C CNN
 	1    9350 1850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L PB170:74HC32 U5
@@ -209,7 +209,7 @@ F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 450 3000 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC32D-653_C5632.pdf" H 450 3000 50  0001 C CNN
 F 4 "C5632" H 1000 2800 50  0001 C CNN "LCSC"
 	1    1000 2800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L PB170:74HC32 U5
@@ -221,7 +221,7 @@ F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 1200 3000 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC32D-653_C5632.pdf" H 1200 3000 50  0001 C CNN
 F 4 "C5632" H 1750 2800 50  0001 C CNN "LCSC"
 	2    1750 2800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L PB170:74HC32 U5
@@ -233,7 +233,7 @@ F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 1950 3000 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC32D-653_C5632.pdf" H 1950 3000 50  0001 C CNN
 F 4 "C5632" H 2500 2800 50  0001 C CNN "LCSC"
 	3    2500 2800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L PB170:74HC32 U5
@@ -245,7 +245,7 @@ F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 2700 3000 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC32D-653_C5632.pdf" H 2700 3000 50  0001 C CNN
 F 4 "C5632" H 3250 2800 50  0001 C CNN "LCSC"
 	4    3250 2800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L PB170:74HC32 U5
@@ -257,178 +257,130 @@ F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 3550 3000 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC32D-653_C5632.pdf" H 3550 3000 50  0001 C CNN
 F 4 "C5632" H 4100 2800 50  0001 C CNN "LCSC"
 	5    4100 2800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 600397BF
 P 3800 3150
-AR Path="/600397BF" Ref="#PWR?"  Part="1" 
-AR Path="/5FEB4D4D/600397BF" Ref="#PWR0131"  Part="1" 
+AR Path="/600397BF" Ref="#PWR?"  Part="1"
+AR Path="/5FEB4D4D/600397BF" Ref="#PWR0131"  Part="1"
 F 0 "#PWR0131" H 3800 2900 50  0001 C CNN
 F 1 "GND" V 3805 3022 50  0000 R CNN
 F 2 "" H 3800 3150 50  0001 C CNN
 F 3 "" H 3800 3150 50  0001 C CNN
 	1    3800 3150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 60039BCC
 P 3800 2450
-AR Path="/60039BCC" Ref="#PWR?"  Part="1" 
-AR Path="/5FEB4D4D/60039BCC" Ref="#PWR0132"  Part="1" 
+AR Path="/60039BCC" Ref="#PWR?"  Part="1"
+AR Path="/5FEB4D4D/60039BCC" Ref="#PWR0132"  Part="1"
 F 0 "#PWR0132" H 3800 2300 50  0001 C CNN
 F 1 "+5V" V 3815 2578 50  0000 L CNN
 F 2 "" H 3800 2450 50  0001 C CNN
 F 3 "" H 3800 2450 50  0001 C CNN
 	1    3800 2450
-	1    0    0    -1  
+	1    0    0    -1
+$EndComp
+$Comp
+L Switch:SW_SPDT SW3
+U 1 1 601DAABB
+P 5650 3200
+F 0 "SW3" H 5650 3485 50  0000 C CNN
+F 1 "SW_SPDT" H 5650 3394 50  0000 C CNN
+F 2 "PB170:toggleSwitch" H 5650 3200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1809140824_Korean-Hroparts-Elec-SS-12F44-G5_C136718.pdf" H 5650 3200 50  0001 C CNN
+F 4 "C136718" H 5650 3200 50  0001 C CNN "LCSC"
+	1    5650 3200
+	1    0    0    -1
+$EndComp
+$Comp
+L Device:R_POT RV1
+U 1 1 601DBB34
+P 7050 3150
+F 0 "RV1" H 6981 3196 50  0000 R CNN
+F 1 "R_POT" H 6981 3105 50  0000 R CNN
+F 2 "PB170:potentiometer10k" H 7050 3150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810170732_Nidec-Copal-Elec-ST-4EA-10K-ohm-103_C132879.pdf" H 7050 3150 50  0001 C CNN
+F 4 "C132879" H 7050 3150 50  0001 C CNN "LCSC"
+	1    7050 3150
+	1    0    0    -1
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 601EAE8F
+P 7050 3450
+AR Path="/601EAE8F" Ref="R?"  Part="1"
+AR Path="/5FEB4D4D/601EAE8F" Ref="R10"  Part="1"
+F 0 "R10" H 7120 3496 50  0000 L CNN
+F 1 "10k" H 7120 3405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6980 3450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 7050 3450 50  0001 C CNN
+F 4 "C25804" H 7050 3450 50  0001 C CNN "LCSC"
+	1    7050 3450
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR?
-U 1 1 600B7A17
-P 4550 4700
-AR Path="/600B7A17" Ref="#PWR?"  Part="1" 
-AR Path="/5FEB4D4D/600B7A17" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4550 4450 50  0001 C CNN
-F 1 "GND" V 4555 4572 50  0000 R CNN
-F 2 "" H 4550 4700 50  0001 C CNN
-F 3 "" H 4550 4700 50  0001 C CNN
-	1    4550 4700
-	1    0    0    -1  
+U 1 1 601EB635
+P 7050 3600
+AR Path="/601EB635" Ref="#PWR?"  Part="1"
+AR Path="/5FEB4D4D/601EB635" Ref="#PWR0123"  Part="1"
+F 0 "#PWR0123" H 7050 3350 50  0001 C CNN
+F 1 "GND" V 7055 3472 50  0000 R CNN
+F 2 "" H 7050 3600 50  0001 C CNN
+F 3 "" H 7050 3600 50  0001 C CNN
+	1    7050 3600
+	1    0    0    -1
 $EndComp
 $Comp
 L power:+5V #PWR?
-U 1 1 600B6A3F
-P 4550 3700
-AR Path="/600B6A3F" Ref="#PWR?"  Part="1" 
-AR Path="/5FEB4D4D/600B6A3F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4550 3550 50  0001 C CNN
-F 1 "+5V" V 4565 3828 50  0000 L CNN
-F 2 "" H 4550 3700 50  0001 C CNN
-F 3 "" H 4550 3700 50  0001 C CNN
-	1    4550 3700
-	1    0    0    -1  
+U 1 1 601EBDCA
+P 7050 3000
+AR Path="/601EBDCA" Ref="#PWR?"  Part="1"
+AR Path="/5FEB4D4D/601EBDCA" Ref="#PWR0124"  Part="1"
+F 0 "#PWR0124" H 7050 2850 50  0001 C CNN
+F 1 "+5V" V 7065 3128 50  0000 L CNN
+F 2 "" H 7050 3000 50  0001 C CNN
+F 3 "" H 7050 3000 50  0001 C CNN
+	1    7050 3000
+	1    0    0    -1
 $EndComp
 $Comp
-L 74xx:74HC86 U?
-U 4 1 600B0ABE
-P 3800 4200
-F 0 "U?" H 3800 4525 50  0000 C CNN
-F 1 "74HC86" H 3800 4434 50  0000 C CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 3800 4200 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74AHC86PWR_C117522.pdf" H 3800 4200 50  0001 C CNN
-F 4 "C117522" H 3800 4200 50  0001 C CNN "LCSC"
-	4    3800 4200
-	1    0    0    -1  
+L power:+5V #PWR?
+U 1 1 601ECB0F
+P 5950 3050
+AR Path="/601ECB0F" Ref="#PWR?"  Part="1"
+AR Path="/5FEB4D4D/601ECB0F" Ref="#PWR0133"  Part="1"
+F 0 "#PWR0133" H 5950 2900 50  0001 C CNN
+F 1 "+5V" V 5965 3178 50  0000 L CNN
+F 2 "" H 5950 3050 50  0001 C CNN
+F 3 "" H 5950 3050 50  0001 C CNN
+	1    5950 3050
+	1    0    0    -1
 $EndComp
 $Comp
-L 74xx:74HC86 U?
-U 1 1 600A8380
-P 1400 4200
-F 0 "U?" H 1400 4525 50  0000 C CNN
-F 1 "74HC86" H 1400 4434 50  0000 C CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 1400 4200 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74AHC86PWR_C117522.pdf" H 1400 4200 50  0001 C CNN
-F 4 "C117522" H 1400 4200 50  0001 C CNN "LCSC"
-	1    1400 4200
-	1    0    0    -1  
+L power:GND #PWR?
+U 1 1 601ED3E5
+P 5950 3350
+AR Path="/601ED3E5" Ref="#PWR?"  Part="1"
+AR Path="/5FEB4D4D/601ED3E5" Ref="#PWR0134"  Part="1"
+F 0 "#PWR0134" H 5950 3100 50  0001 C CNN
+F 1 "GND" V 5955 3222 50  0000 R CNN
+F 2 "" H 5950 3350 50  0001 C CNN
+F 3 "" H 5950 3350 50  0001 C CNN
+	1    5950 3350
+	1    0    0    -1
 $EndComp
-$Comp
-L 74xx:74HC86 U?
-U 3 1 600AF551
-P 3000 4200
-F 0 "U?" H 3000 4525 50  0000 C CNN
-F 1 "74HC86" H 3000 4434 50  0000 C CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 3000 4200 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74AHC86PWR_C117522.pdf" H 3000 4200 50  0001 C CNN
-F 4 "C117522" H 3000 4200 50  0001 C CNN "LCSC"
-	3    3000 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC86 U?
-U 5 1 600B2251
-P 4550 4200
-F 0 "U?" H 4780 4246 50  0000 L CNN
-F 1 "74HC86" H 4780 4155 50  0000 L CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 4550 4200 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74AHC86PWR_C117522.pdf" H 4550 4200 50  0001 C CNN
-F 4 "C117522" H 4550 4200 50  0001 C CNN "LCSC"
-	5    4550 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC86 U?
-U 2 1 600AA188
-P 2200 4200
-F 0 "U?" H 2200 4525 50  0000 C CNN
-F 1 "74HC86" H 2200 4434 50  0000 C CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 2200 4200 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74AHC86PWR_C117522.pdf" H 2200 4200 50  0001 C CNN
-F 4 "C117522" H 2200 4200 50  0001 C CNN "LCSC"
-	2    2200 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC00 U?
-U 1 1 60193F08
-P 1400 5100
-F 0 "U?" H 1400 5425 50  0000 C CNN
-F 1 "74HC00" H 1400 5334 50  0000 C CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 1400 5100 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74HC00PWR_C6807.pdf" H 1400 5100 50  0001 C CNN
-F 4 "C6807" H 1400 5100 50  0001 C CNN "LCSC"
-	1    1400 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC00 U?
-U 2 1 6019C24F
-P 2200 5100
-F 0 "U?" H 2200 5425 50  0000 C CNN
-F 1 "74HC00" H 2200 5334 50  0000 C CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 2200 5100 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74HC00PWR_C6807.pdf" H 2200 5100 50  0001 C CNN
-F 4 "C6807" H 2200 5100 50  0001 C CNN "LCSC"
-	2    2200 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC00 U?
-U 3 1 6019DAAA
-P 3000 5100
-F 0 "U?" H 3000 5425 50  0000 C CNN
-F 1 "74HC00" H 3000 5334 50  0000 C CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 3000 5100 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74HC00PWR_C6807.pdf" H 3000 5100 50  0001 C CNN
-F 4 "C6807" H 3000 5100 50  0001 C CNN "LCSC"
-	3    3000 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC00 U?
-U 5 1 601A0524
-P 4800 5650
-F 0 "U?" H 5030 5696 50  0000 L CNN
-F 1 "74HC00" H 5030 5605 50  0000 L CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 4800 5650 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74HC00PWR_C6807.pdf" H 4800 5650 50  0001 C CNN
-F 4 "C6807" H 4800 5650 50  0001 C CNN "LCSC"
-	5    4800 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC00 U?
-U 4 1 6019F25D
-P 3850 5100
-F 0 "U?" H 3850 5425 50  0000 C CNN
-F 1 "74HC00" H 3850 5334 50  0000 C CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 3850 5100 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74HC00PWR_C6807.pdf" H 3850 5100 50  0001 C CNN
-F 4 "C6807" H 3850 5100 50  0001 C CNN "LCSC"
-	4    3850 5100
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	5850 3300 5950 3300
+Wire Wire Line
+	5950 3300 5950 3350
+Wire Wire Line
+	5850 3100 5950 3100
+Wire Wire Line
+	5950 3100 5950 3050
 $EndSCHEMATC
