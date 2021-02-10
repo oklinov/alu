@@ -283,8 +283,8 @@ AR Path="/5FEB4D4D/601C1314" Ref="U?"  Part="4"
 AR Path="/600A4AF3/601C1314" Ref="U20"  Part="1" 
 F 0 "U20" H 9400 5275 50  0000 C CNN
 F 1 "74HC00" H 9400 5184 50  0000 C CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 9400 4950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74HC00PWR_C6807.pdf" H 9400 4950 50  0001 C CNN
+F 2 "" H 9400 4950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 9400 4950 50  0001 C CNN
 F 4 "C6807" H 9400 4950 50  0001 C CNN "LCSC"
 	1    9400 4950
 	1    0    0    -1  
@@ -311,26 +311,8 @@ Wire Wire Line
 	9150 2700 9500 2700
 Wire Wire Line
 	4900 2850 5600 2850
-$Comp
-L PB170:74HC08 U?
-U 1 1 602410A7
-P 8750 3900
-AR Path="/5FEB4D4D/602410A7" Ref="U?"  Part="1" 
-AR Path="/600A4AF3/602410A7" Ref="U22"  Part="1" 
-F 0 "U22" H 8775 4167 50  0000 C CNN
-F 1 "74HC08" H 8775 4076 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 8750 3900 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 8750 3900 50  0001 C CNN
-F 4 "C5593" H 8750 3900 50  0001 C CNN "LCSC"
-	1    8750 3900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10350 3250 9750 3250
-Wire Wire Line
-	9750 3250 9750 3900
-Wire Wire Line
-	9750 3900 9050 3900
 Wire Wire Line
 	8100 4650 8100 2700
 Connection ~ 8100 2700
@@ -357,40 +339,11 @@ Wire Wire Line
 Connection ~ 7950 2400
 Wire Wire Line
 	7950 2400 9500 2400
-$Comp
-L PB170:74HC08 U?
-U 5 1 6029D5E1
-P 4900 7000
-AR Path="/5FEB4D4D/6029D5E1" Ref="U?"  Part="1" 
-AR Path="/600A4AF3/6029D5E1" Ref="U22"  Part="5" 
-F 0 "U22" H 4925 7267 50  0000 C CNN
-F 1 "74HC08" H 4925 7176 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 4900 7000 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 4900 7000 50  0001 C CNN
-F 4 "C5593" H 4900 7000 50  0001 C CNN "LCSC"
-	5    4900 7000
-	1    0    0    -1  
-$EndComp
 Connection ~ 2850 4550
 Text HLabel 2500 5800 0    50   Input ~ 0
 IN_OP0
 Wire Wire Line
 	2850 5800 2850 4550
-$Comp
-L power:+5V #PWR?
-U 1 1 602F6DA6
-P 4900 6500
-AR Path="/602F6DA6" Ref="#PWR?"  Part="1" 
-AR Path="/5FEB4D4D/602F6DA6" Ref="#PWR?"  Part="1" 
-AR Path="/600A4AF3/600A5215/602F6DA6" Ref="#PWR?"  Part="1" 
-AR Path="/600A4AF3/602F6DA6" Ref="#PWR0104"  Part="1" 
-F 0 "#PWR0104" H 4900 6350 50  0001 C CNN
-F 1 "+5V" V 4915 6628 50  0000 L CNN
-F 2 "" H 4900 6500 50  0001 C CNN
-F 3 "" H 4900 6500 50  0001 C CNN
-	1    4900 6500
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 602F79FD
@@ -419,21 +372,6 @@ F 1 "+5V" V 6365 6428 50  0000 L CNN
 F 2 "" H 6350 6300 50  0001 C CNN
 F 3 "" H 6350 6300 50  0001 C CNN
 	1    6350 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 602F8A4B
-P 4900 7500
-AR Path="/602F8A4B" Ref="#PWR?"  Part="1" 
-AR Path="/5FEB4D4D/602F8A4B" Ref="#PWR?"  Part="1" 
-AR Path="/600A4AF3/600A5215/602F8A4B" Ref="#PWR?"  Part="1" 
-AR Path="/600A4AF3/602F8A4B" Ref="#PWR0109"  Part="1" 
-F 0 "#PWR0109" H 4900 7250 50  0001 C CNN
-F 1 "GND" V 4905 7372 50  0000 R CNN
-F 2 "" H 4900 7500 50  0001 C CNN
-F 3 "" H 4900 7500 50  0001 C CNN
-	1    4900 7500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -511,8 +449,8 @@ AR Path="/5FEB4D4D/601C131B" Ref="U?"  Part="5"
 AR Path="/600A4AF3/601C131B" Ref="U20"  Part="5" 
 F 0 "U20" H 6580 6846 50  0000 L CNN
 F 1 "74HC00" H 6580 6755 50  0000 L CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6350 6800 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74HC00PWR_C6807.pdf" H 6350 6800 50  0001 C CNN
+F 2 "" H 6350 6800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 6350 6800 50  0001 C CNN
 F 4 "C6807" H 6350 6800 50  0001 C CNN "LCSC"
 	5    6350 6800
 	1    0    0    -1  
@@ -534,25 +472,14 @@ AR Path="/5FEB4D4D/601C1306" Ref="U?"  Part="2"
 AR Path="/600A4AF3/601C1306" Ref="U20"  Part="2" 
 F 0 "U20" H 6050 5675 50  0000 C CNN
 F 1 "74HC00" H 6050 5584 50  0000 C CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6050 5350 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74HC00PWR_C6807.pdf" H 6050 5350 50  0001 C CNN
+F 2 "" H 6050 5350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 6050 5350 50  0001 C CNN
 F 4 "C6807" H 6050 5350 50  0001 C CNN "LCSC"
 	2    6050 5350
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	6050 2750 6700 2750
-Wire Wire Line
-	5600 2850 5600 3850
-Wire Wire Line
-	5600 3850 8500 3850
-Wire Wire Line
-	8500 3950 6050 3950
-Wire Wire Line
-	6050 2750 6050 3950
-Connection ~ 6050 3950
-Wire Wire Line
-	6050 3950 6050 5050
 Wire Wire Line
 	2650 4650 2650 5050
 $Comp
@@ -561,10 +488,72 @@ U 3 1 603629D0
 P 2650 5350
 F 0 "U20" V 2696 5170 50  0000 R CNN
 F 1 "74HC00" V 2605 5170 50  0000 R CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 2650 5350 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74HC00PWR_C6807.pdf" H 2650 5350 50  0001 C CNN
+F 2 "" H 2650 5350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 2650 5350 50  0001 C CNN
 F 4 "C6807" V 2650 5350 50  0001 C CNN "LCSC"
 	3    2650 5350
 	0    -1   -1   0   
 $EndComp
+$Comp
+L 74xx:74HC00 U20
+U 4 1 60249F57
+P 8800 3900
+F 0 "U20" H 8800 4225 50  0000 C CNN
+F 1 "74HC00" H 8800 4134 50  0000 C CNN
+F 2 "" H 8800 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 8800 3900 50  0001 C CNN
+	4    8800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC86 U16
+U 2 1 6026643A
+P 9400 3800
+F 0 "U16" H 9400 4125 50  0000 C CNN
+F 1 "74HC86" H 9400 4034 50  0000 C CNN
+F 2 "" H 9400 3800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC86" H 9400 3800 50  0001 C CNN
+	2    9400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 602768A6
+P 9100 3700
+AR Path="/602768A6" Ref="#PWR?"  Part="1" 
+AR Path="/5FEB4D4D/602768A6" Ref="#PWR?"  Part="1" 
+AR Path="/600A4AF3/600A5215/602768A6" Ref="#PWR?"  Part="1" 
+AR Path="/600A4AF3/602768A6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9100 3550 50  0001 C CNN
+F 1 "+5V" V 9115 3828 50  0000 L CNN
+F 2 "" H 9100 3700 50  0001 C CNN
+F 3 "" H 9100 3700 50  0001 C CNN
+	1    9100 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 2850 5600 3800
+Wire Wire Line
+	8500 4000 6050 4000
+Connection ~ 6050 4000
+Wire Wire Line
+	6050 4000 6050 5050
+Wire Wire Line
+	6050 2750 6050 4000
+Wire Wire Line
+	8500 3800 5600 3800
+Wire Wire Line
+	9700 3800 9750 3800
+Wire Wire Line
+	9750 3800 9750 3250
+Wire Notes Line
+	8450 4300 9850 4300
+Wire Notes Line
+	9850 4300 9850 3400
+Wire Notes Line
+	9850 3400 8450 3400
+Wire Notes Line
+	8450 3400 8450 4300
+Text Notes 8450 3500 0    50   ~ 0
+AND
 $EndSCHEMATC
