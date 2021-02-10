@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:R R1
+L Device:R R42
 U 1 1 5FCE05A1
 P 1400 3550
-F 0 "R1" H 1470 3596 50  0000 L CNN
+F 0 "R42" H 1470 3596 50  0000 L CNN
 F 1 "220R" H 1470 3505 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" V 1330 3550 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF2200T5E_C22962.pdf" H 1400 3550 50  0001 C CNN
@@ -26,10 +26,10 @@ F 4 "C22962" H 1400 3550 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D1
+L Device:LED D42
 U 1 1 5FCE0D28
 P 1400 3850
-F 0 "D1" V 1439 3733 50  0000 R CNN
+F 0 "D42" V 1439 3733 50  0000 R CNN
 F 1 "LED red" V 1348 3733 50  0000 R CNN
 F 2 "LEDs:LED_0603" H 1400 3850 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" H 1400 3850 50  0001 C CNN
@@ -190,10 +190,10 @@ F 4 "C404969" H 1450 6250 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R9
+L Device:R R900
 U 1 1 5FCFF67C
 P 1550 2400
-F 0 "R9" H 1620 2446 50  0000 L CNN
+F 0 "R900" H 1620 2446 50  0000 L CNN
 F 1 "10k" H 1620 2355 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" V 1480 2400 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 1550 2400 50  0001 C CNN
@@ -227,10 +227,10 @@ Wire Notes Line
 Wire Notes Line
 	950  950  950  4450
 $Comp
-L Device:R R11
+L Device:R R110
 U 1 1 5FD41C51
 P 1900 6350
-F 0 "R11" H 1970 6396 50  0000 L CNN
+F 0 "R110" H 1970 6396 50  0000 L CNN
 F 1 "220R" H 1970 6305 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" V 1830 6350 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF2200T5E_C22962.pdf" H 1900 6350 50  0001 C CNN
@@ -304,17 +304,6 @@ Text Notes 950  900  0    50   ~ 0
 Power management
 Text Notes 4650 900  0    50   ~ 0
 4-bit ALU
-$Comp
-L PB170:USB_C_Receptacle_USB2.0-Connector J1
-U 1 1 5FD02084
-P 1650 6250
-F 0 "J1" H 1757 7117 50  0000 C CNN
-F 1 "USB_C_Receptacle_USB2.0-Connector" H 1757 7026 50  0000 C CNN
-F 2 "PB170:USB_C_Female-16Pin-HPJF" H 1800 6250 50  0001 C CNN
-F 3 "" H 1800 6250 50  0001 C CNN
-	1    1650 6250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1350 7250 1350 7200
 Wire Wire Line
@@ -486,4 +475,15 @@ Wire Wire Line
 	7100 3350 6750 3350
 Wire Wire Line
 	6750 3450 7100 3450
+$Comp
+L PB170:USB_C_Receptacle_USB2.0-Connector J1
+U 1 1 5FD02084
+P 1650 6250
+F 0 "J1" H 1757 7117 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0-Connector" H 1757 7026 50  0000 C CNN
+F 2 "PB170:USB_C_Female-16Pin-HPJF" H 1800 6250 50  0001 C CNN
+F 3 "" H 1800 6250 50  0001 C CNN
+	1    1650 6250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
