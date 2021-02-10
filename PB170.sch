@@ -227,10 +227,10 @@ Wire Notes Line
 Wire Notes Line
 	950  950  950  4450
 $Comp
-L Device:R R110
+L Device:R R43
 U 1 1 5FD41C51
 P 1900 6350
-F 0 "R110" H 1970 6396 50  0000 L CNN
+F 0 "R43" H 1970 6396 50  0000 L CNN
 F 1 "220R" H 1970 6305 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" V 1830 6350 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF2200T5E_C22962.pdf" H 1900 6350 50  0001 C CNN
@@ -304,35 +304,6 @@ Text Notes 950  900  0    50   ~ 0
 Power management
 Text Notes 4650 900  0    50   ~ 0
 4-bit ALU
-Wire Wire Line
-	1350 7250 1350 7200
-Wire Wire Line
-	1650 7150 1650 7200
-Wire Wire Line
-	1650 7200 1350 7200
-Connection ~ 1350 7200
-Wire Wire Line
-	1350 7200 1350 7150
-Wire Wire Line
-	2250 5650 2650 5650
-Wire Wire Line
-	2650 5650 2650 5600
-NoConn ~ 2250 5850
-NoConn ~ 2250 5950
-NoConn ~ 2250 6750
-NoConn ~ 2250 6850
-Wire Wire Line
-	2250 6250 2300 6250
-Wire Wire Line
-	2300 6250 2300 6150
-Wire Wire Line
-	2300 6150 2600 6150
-Wire Wire Line
-	2250 6350 2300 6350
-Wire Wire Line
-	2300 6350 2300 6450
-Wire Wire Line
-	2300 6450 2600 6450
 Wire Wire Line
 	2200 2150 2300 2150
 $Comp
@@ -475,15 +446,4 @@ Wire Wire Line
 	7100 3350 6750 3350
 Wire Wire Line
 	6750 3450 7100 3450
-$Comp
-L PB170:USB_C_Receptacle_USB2.0-Connector J1
-U 1 1 5FD02084
-P 1650 6250
-F 0 "J1" H 1757 7117 50  0000 C CNN
-F 1 "USB_C_Receptacle_USB2.0-Connector" H 1757 7026 50  0000 C CNN
-F 2 "PB170:USB_C_Female-16Pin-HPJF" H 1800 6250 50  0001 C CNN
-F 3 "" H 1800 6250 50  0001 C CNN
-	1    1650 6250
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
