@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 9
+Sheet 2 8
 Title ""
 Date ""
 Rev ""
@@ -511,8 +511,8 @@ U 2 1 6026643A
 P 9400 3800
 F 0 "U16" H 9400 4125 50  0000 C CNN
 F 1 "74HC86" H 9400 4034 50  0000 C CNN
-F 2 "" H 9400 3800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74HC86" H 9400 3800 50  0001 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 9400 3800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74AHC86PWR_C117522.pdf" H 9400 3800 50  0001 C CNN
 	2    9400 3800
 	1    0    0    -1  
 $EndComp
@@ -556,4 +556,58 @@ Wire Notes Line
 	8450 3400 8450 4300
 Text Notes 8450 3500 0    50   ~ 0
 AND
+$Comp
+L PB170:74HC32 U?
+U 4 1 602AE295
+P 8350 5850
+AR Path="/5FEB4D4D/602AE295" Ref="U?"  Part="1" 
+AR Path="/600A4AF3/600A5215/602AE295" Ref="U?"  Part="4" 
+AR Path="/600A4AF3/602AE295" Ref="U21"  Part="4" 
+F 0 "U21" H 8325 6125 50  0000 C CNN
+F 1 "74HC32" H 8325 6034 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 7800 6050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC32D-653_C5632.pdf" H 7800 6050 50  0001 C CNN
+F 4 "C5632" H 8350 5850 50  0001 C CNN "LCSC"
+	4    8350 5850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8100 5800
+NoConn ~ 8100 5900
+NoConn ~ 8550 5850
+$Comp
+L 74xx:74HC86 U?
+U 3 1 60302642
+P 7100 5450
+AR Path="/5FEB4D4D/60302642" Ref="U?"  Part="2" 
+AR Path="/600A4AF3/600A5215/60302642" Ref="U?"  Part="1" 
+AR Path="/600A4AF3/60302642" Ref="U16"  Part="3" 
+F 0 "U16" H 7100 5775 50  0000 C CNN
+F 1 "74HC86" H 7100 5684 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 7100 5450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74AHC86PWR_C117522.pdf" H 7100 5450 50  0001 C CNN
+F 4 "C117522" H 7100 5450 50  0001 C CNN "LCSC"
+	3    7100 5450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7400 5450
+NoConn ~ 6800 5550
+NoConn ~ 6800 5350
+$Comp
+L 74xx:74HC86 U?
+U 4 1 6032D615
+P 9350 5800
+AR Path="/5FEB4D4D/6032D615" Ref="U?"  Part="2" 
+AR Path="/600A4AF3/600A5215/6032D615" Ref="U?"  Part="1" 
+AR Path="/600A4AF3/6032D615" Ref="U16"  Part="4" 
+F 0 "U16" H 9350 6125 50  0000 C CNN
+F 1 "74HC86" H 9350 6034 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 9350 5800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74AHC86PWR_C117522.pdf" H 9350 5800 50  0001 C CNN
+F 4 "C117522" H 9350 5800 50  0001 C CNN "LCSC"
+	4    9350 5800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9650 5800
+NoConn ~ 9050 5900
+NoConn ~ 9050 5700
 $EndSCHEMATC
