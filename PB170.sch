@@ -134,9 +134,9 @@ Wire Notes Line
 Wire Notes Line
 	10700 950  4650 950 
 Text Notes 7400 7500 0    50   ~ 0
-Sablona pro zaverecne projekty predmetu PB170 na FI MU Brno
+ALU - záverečný projekt predmetu PB170 na FI MU Brno
 Text Notes 7050 6700 0    50   ~ 0
-<Jmena autoru>
+Ondrej Klinovský, Jakub Maloštík
 Text Notes 950  900  0    50   ~ 0
 Power management
 Text Notes 4650 900  0    50   ~ 0
@@ -341,4 +341,6 @@ Wire Wire Line
 Wire Wire Line
 	1750 1550 1750 1500
 NoConn ~ 1700 1950
+Text Notes 8100 7650 0    50   ~ 0
+18.02.2021
 $EndSCHEMATC
