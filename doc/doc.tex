@@ -48,13 +48,13 @@
     \begin{figure}[h!]
         \centering
         \includegraphics[width=.9\linewidth]{top_sheet.pdf}
-        \caption{Na tejto schéme môžme vidieť vľavo napájanie obvodu (prevziate z poskytnutej šablóny) a vpravo samotný obdod rozdelený na tri podschémy, zľava: vstup, ALU a výstup.}
+        \caption{Na tejto schéme môžme vidieť vľavo napájanie obvodu (prevzaté z poskytnutej šablóny) a vpravo samotný obdod rozdelený na tri podschémy, zľava: vstup, ALU a výstup.}
     \end{figure}
 
     \begin{figure}[h!]
         \centering
         \includegraphics[width=.9\linewidth]{alu_sheet.pdf}
-        \caption{todo}
+        \caption{Na tejto schéme môžeme vidieť samotnú ALU, ktorá je rozdelená na ďalšie tri časti: Aritmetickú časť, logickú časť a multiplexer. Taktiež je tu logika pre jednotlivé výstupové flagy a nepoužité časti súčiastok}
     \end{figure}
 
     \begin{figure}[h!]
@@ -69,13 +69,25 @@
     \begin{figure}[h!]
         \centering
         \includegraphics[width=.9\linewidth]{logic_sheet.pdf}
-        \caption{todo}
+        \caption{Na tejto schéme sa nachádza časť obvodu zodpovedná za logické operácie AND a OR. Jedna z týchto operácií sa vyberie pomocou multiplexeru.}
     \end{figure}
 
     \begin{figure}[h!]
         \centering
         \includegraphics[width=.9\linewidth]{adder_sheet.pdf}
         \caption{todo}
+    \end{figure}
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=.9\linewidth]{mux_sheet.pdf}
+        \caption{V multiplexeri sa pomocou obvodov AND a OR vyberie jedna štvorica vstupov na základe vstupného bitu a predá na výstup.}
+    \end{figure}
+    
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=.9\linewidth]{pcb.pdf}
+        \caption{Nakoniec sa poukladajú jednotlivé súčiastky, nakreslí sa ohraničenie dosky a ``routujú'' sa jednotlivé spojenia medzi vyznačenými nožičkami. Táto doska bola routovaná na štvorvrstvovej pcb doske, kde sa jednotlivé spojenia môžu viesť každou zo štyroch vrstiev. Horná a spodná vrstva (červená a zelená) slúžia na logické spájanie jednotlivých vstupov a výstupov obvodov a dve prostredné vrstvy (žltá a purpurová) slúžia zväčša na vedenie napájania jednotlivých súčiastok}
     \end{figure}
 
 \end{document}
