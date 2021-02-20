@@ -43,24 +43,30 @@
     \end{figure}
 
     \paragraph{}
-    Celý obvod sme si rozdelili na tri časti: vstup, výstup a samotná ALU. Výstup je najjednoduchšia časť, tvorí ho sedem LED-diód reprezentujúcich 4-bitový výsledok a tri príznaky. Výstup je o niečo zložitejší. Nachádzajú sa tu dve tlačítka napojené na RS klopné obvody, vďaka ktorým sme schopní meniť operáciu ALU. Osem prepínačov slúži pre zadávanie dvoch 4-bitových čísel pre ALU. Na každý vstup je napojená jedna LED-dióda pre zobrazenie dát, s ktorými ALU pracuje.
+    Celý obvod sme si rozdelili na tri časti: vstup, výstup a samotná ALU. Výstup je najjednoduchšia časť, tvorí ho sedem LED-diód reprezentujúcich 4-bitový výsledok a tri príznaky. Výstup je o niečo zložitejší. Nachádzajú sa tu dve tlačítka napojené na D klopné obvody, vďaka ktorým sme schopní meniť operáciu ALU. Osem prepínačov slúži pre zadávanie dvoch 4-bitových čísel pre ALU. Na každý vstup je napojená jedna LED-dióda pre zobrazenie dát, s ktorými ALU pracuje.
 
     \begin{figure}[h!]
         \centering
         \includegraphics[width=.9\linewidth]{top_sheet.pdf}
-        \caption{Na tejto schéme môžme vidieť vľavo napájanie obvodu (prevziate z poskytnutej šablóny) a vpravo samotný obdod rozdelený na tri podschémy, zľava: vstup, ALU a výstup.}
+        \caption{Na tejto schéme môžme vidieť vľavo napájanie obvodu (prevziate z poskytnutej šablóny) a vpravo samotný obvod rozdelený na tri podschémy, zľava: vstup, ALU a výstup.}
     \end{figure}
 
     \begin{figure}[h!]
         \centering
         \includegraphics[width=.9\linewidth]{alu_sheet.pdf}
-        \caption{todo}
+        \caption{}
+    \end{figure}
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=.9\linewidth]{input_sheet.pdf}
+        \caption{Vľavo sa nachádzajú dve tlačítka s klopnými obvodmi D pre zadavanie operácie a napravo od nich osem prepínačov pre čísla A a B.}
     \end{figure}
 
     \begin{figure}[h!]
         \centering
         \includegraphics[width=.9\linewidth]{output_sheet.pdf}
-        \caption{todo}
+        \caption{Štyri horné LED predstavujú výsledok operácie a tri LED pod nimi predstavú príznaky pretečenia, negatívneho výsledku a nulového výsledku.}
     \end{figure}
 
     \paragraph{}
@@ -75,7 +81,7 @@
     \begin{figure}[h!]
         \centering
         \includegraphics[width=.9\linewidth]{adder_sheet.pdf}
-        \caption{todo}
+        \caption{Obvod pre sčítanie a odčítanie. Vľavo môžme vidieť štyri XOR brány pre prevracanie hodnôt čísla B, ktoré ďalej pokračujú do bitových sčítačiek. Výstupný signál OUT\_OF (príznak pretečenia) je výsledok operácie XOR, ktorej vstupom sú signály carry-out sčítačiek dvoch najvýznamnejších bitov.}
     \end{figure}
 
 \end{document}
