@@ -10,7 +10,7 @@
     linkcolor=blue,
 }
 
-\graphicspath{ {./} }
+\graphicspath{ {./img/} }
 
 \title{PB170 -- ALU}
 \author{Ondrej Klinovský, Jakub Maloštík}
@@ -35,10 +35,48 @@
     \end{tabular}
     \end{center}
     Výstup ALU pozostáva zo štyroch LED-diód predstavujúcich výsledok zvolenej operácie a troch LED-diód predstavujúcich príznaky operácie: nulový výsledok, záporný výsledok a pretečenie aritmetickej operácie.
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=.9\linewidth]{sim.png}
+        \caption{Prvotný návrh sme spravili v simulátore digitalnych obvodov Digital. Na obázku je vidieť celá shéma obvodu ALU. Pre zjednodušenie návrhu sme použili vstavané komponenty ako sčítačky alebo multiplexer. Vstupy su riešené jednoduchými prepínačmi.}
+    \end{figure}
+
     \paragraph{}
     Celý obvod sme si rozdelili na tri časti: vstup, výstup a samotná ALU. Výstup je najjednoduchšia časť, tvorí ho sedem LED-diód reprezentujúcich 4-bitový výsledok a tri príznaky. Výstup je o niečo zložitejší. Nachádzajú sa tu dve tlačítka napojené na RS klopné obvody, vďaka ktorým sme schopní meniť operáciu ALU. Osem prepínačov slúži pre zadávanie dvoch 4-bitových čísel pre ALU. Na každý vstup je napojená jedna LED-dióda pre zobrazenie dát, s ktorými ALU pracuje.
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=.9\linewidth]{top_sheet.pdf}
+        \caption{Na tejto schéme môžme vidieť vľavo napájanie obvodu (prevziate z poskytnutej šablóny) a vpravo samotný obdod rozdelený na tri podschémy, zľava: vstup, ALU a výstup.}
+    \end{figure}
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=.9\linewidth]{alu_sheet.pdf}
+        \caption{todo}
+    \end{figure}
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=.9\linewidth]{output_sheet.pdf}
+        \caption{todo}
+    \end{figure}
+
     \paragraph{}
     Treťou, najkomplikovanejšou časťou je ALU, ktorá sa pozostáva z aritmetickej (sčítačky) a logickej časti, multiplexeru a logiky pre zobrazenie príznakov. Mutliplexer na základe významnejšieho bitu operácie rozhoduje, či na vstup pošle výsledok aritmetickej alebo logickej časti. Obe majú na vstupe dve 4-bitové čísla a operačný bit (menej významný bit operácie) a na výstupe 4-bitový výsledok. V logickej časti sa nachádzajú štyri AND brány a štyri OR brány smerujúce do multiplexeru, ktorý na základe operačného bitu rozhodne, ktorý výsledok pošle na výstup. V aritmetickej časti nie je multiplexer potrebný. Odčítanie je možné previesť inverziou bitov čísla B a pripočítanie jednotky k výsledku. Inverzia bitov je implementovaná pomocou XOR brány. Zatiaľ čo číslo A na napojené priamo na sčítačku, číslo B prechádza cez XOR brány, kde tvorí vstup spolu s operačným bitom. Ak je operačný bit 0 (sčítanie), číslo B prejde XORmi bez zmeny. V prípade odčítania (operačný bit má hodnotu 1) XOR invertuje všetky bity čísla B. Pripočítanie jednotky je docielené tým, že operačný bit je napojený na carry-in vstup sčítačky. V prípade sčitovania bude mať carry-in hodnotu 0. Okrem 4-bitového čísla ma sčítačka na výstupe bit signalizujúci pretečenie, ktorý je výsledkom XOR operácie dvoch najvýznamnejších bitov výsledného čísla.
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=.9\linewidth]{logic_sheet.pdf}
+        \caption{todo}
+    \end{figure}
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=.9\linewidth]{adder_sheet.pdf}
+        \caption{todo}
+    \end{figure}
 
 \end{document}
 
